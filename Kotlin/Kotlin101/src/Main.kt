@@ -65,7 +65,7 @@ fun sumarNumeros(num1: Int, num2: Int = 0): Int { //se puede dar un valor inicia
 fun colecciones() {
     val nombres = arrayOf("Pepe", "María")
     println(nombres.contentToString())
-    val dias: MutableList<String> = emptyList<String>().toMutableList()
+    val dias: MutableList<String> = ArrayList()
     dias.addAll(listOf("Lunes","Martes","miercoles"))
     println(dias)
     dias[2] = "Mercredi"
