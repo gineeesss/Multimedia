@@ -1,0 +1,2 @@
+espia en fantasy:
+	 crear un usuario y meterlo a la liga para que este al tanto de los movimientos de cada usuario . La idea principal es que calcule el dinero
