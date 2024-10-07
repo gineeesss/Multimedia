@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="conversiones-array">
+        <item>EUR - USD</item>
+        <item>USD - EUR</item>
+        <item>EUR - GBP</item>
+        <item>GBP - EUR</item>
+    </string-array>
+</resources>

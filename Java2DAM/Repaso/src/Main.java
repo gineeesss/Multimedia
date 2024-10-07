@@ -6,6 +6,8 @@ public class Main {
     public static void main(String[] args) {
         //bucles();
         colecciones();
+        Alumno a2 = new Alumno("paco");
+
     }
 
     private static void asignaciones() {

@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Jetpack Compose Test</string>
+    <string name="app_title">DAM Compose UI Test</string>
+    <string name="aumentar_contador">Aumentar contador</string>
+</resources>
