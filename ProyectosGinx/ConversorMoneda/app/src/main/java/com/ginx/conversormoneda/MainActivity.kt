@@ -82,6 +82,7 @@ fun MyTopBar() {
         ),
         title ={ Text("Conversor EUR-USD") }
         , navigationIcon = {
+<<<<<<< HEAD
         IconButton(onClick = { /* do something */ }) {
             Icon(
                 imageVector = Icons.Rounded.ShoppingCart,
@@ -92,6 +93,18 @@ fun MyTopBar() {
 
         }
     }
+=======
+            IconButton(onClick = { /* do something */ }) {
+                Icon(
+                    imageVector = Icons.Rounded.ShoppingCart,
+                    contentDescription = "Icono",
+                    modifier = Modifier.size(64.dp).clickable {  },
+                    tint = Color((0..225).random(),(0..225).random(),(0..225).random())
+                )
+
+            }
+        }
+>>>>>>> f3cc6f4a9b6f5b533740bcba5cfc32512936e0c6
     )
 }
 
@@ -154,6 +167,25 @@ fun GreetingPreview() {
         MyApp(modifier = Modifier)
     }
 }
+<<<<<<< HEAD
+=======
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+>>>>>>> f3cc6f4a9b6f5b533740bcba5cfc32512936e0c6
 @Composable
 fun TextoSalida(amount: MutableState<Float>) {
     Text("${amount.value}")
@@ -184,4 +216,7 @@ fun TextFieldUser(
 
 
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> f3cc6f4a9b6f5b533740bcba5cfc32512936e0c6
