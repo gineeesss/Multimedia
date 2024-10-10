@@ -1,27 +1,38 @@
 package com.ginx.conversormoneda
-
 import android.os.Bundle
+import android.provider.CalendarContract.Colors
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.activity.enableEdgeToEdge
+import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.padding
+import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.layout.wrapContentHeight
 import androidx.compose.foundation.layout.wrapContentSize
 import androidx.compose.foundation.lazy.LazyColumn
+import androidx.compose.material.icons.Icons
+import androidx.compose.material.icons.rounded.ShoppingCart
+import androidx.compose.material3.ExperimentalMaterial3Api
+import androidx.compose.material3.Icon
+import androidx.compose.material3.IconButton
+import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.OutlinedButton
 import androidx.compose.material3.OutlinedTextField
 import androidx.compose.material3.Scaffold
 import androidx.compose.material3.Text
+import androidx.compose.material3.TopAppBar
+import androidx.compose.material3.TopAppBarDefaults
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.MutableState
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.remember
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import com.ginx.conversormoneda.ui.theme.ConversorMonedaTheme
@@ -42,11 +53,15 @@ al tiempo que el botón que se ha pulsado se desactivará.
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
+        setTitle("Conversor EUR-USD");
+        //getActionBar().setIcon(R.drawable.my_icon);
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
         setContent {
             ConversorMonedaTheme {
-                Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
+                Scaffold(modifier = Modifier.fillMaxSize(),
+                    { MyTopBar() }) { innerPadding ->
+                    //LLAMO AL CON MYTOP APP DENTRO DEL SCAFFOLD PARA LUEGO HACER EL INNGERPADING
                     MyApp(
                         modifier = Modifier.padding(innerPadding)
                     )
@@ -54,8 +69,31 @@ class MainActivity : ComponentActivity() {
             }
         }
     }
-}
 
+
+}
+@OptIn(ExperimentalMaterial3Api::class)
+@Composable
+fun MyTopBar() {
+    TopAppBar(
+        colors = TopAppBarDefaults.topAppBarColors(
+            containerColor = Color.Gray,
+            titleContentColor = Color.Magenta,
+        ),
+        title ={ Text("Conversor EUR-USD") }
+        , navigationIcon = {
+            IconButton(onClick = { /* do something */ }) {
+                Icon(
+                    imageVector = Icons.Rounded.ShoppingCart,
+                    contentDescription = "Icono",
+                    modifier = Modifier.size(64.dp).clickable {  },
+                    tint = Color((0..225).random(),(0..225).random(),(0..225).random())
+                )
+
+            }
+        }
+    )
+}
 
 @Composable
 fun MyApp(modifier: Modifier = Modifier) {
@@ -74,7 +112,9 @@ fun MyApp(modifier: Modifier = Modifier) {
             TextoSalida(amount)
         }*/
         Conversor(amount, amountConverted, onConvert = { amountConverted.value = convert(amount.value.toFloatOrNull()?: 0.0f)})
-        Text(text = "Conversion ${amountConverted.value}")
+        //Text(text = "Conversion ${amountConverted.value} $")
+        Text(text = "Conversion ${String.format("%.2f", amountConverted.value)} $")
+
     }
 }
 
@@ -93,22 +133,27 @@ fun Conversor(
     OutlinedButton(onClick = onConvert) {
         Text(text = "Convertir")
     }
-    LazyColumn(
+    /*LazyColumn(
         modifier = Modifier.fillMaxWidth().wrapContentHeight()
     ) {
-        val lista = context.re
-            R.xml.conversiones.toString()
 
-        asasda.toList()
+    }*/
+}
 
+// EUR - USD  1,0939197
+var conversion = 1.0939197f;
+fun convert(amount: Float): Float{
+    return amount* conversion
+}
+
+
+@Preview(showBackground = true)
+@Composable
+fun GreetingPreview() {
+    ConversorMonedaTheme {
+        MyApp(modifier = Modifier)
     }
 }
-
-fun convert(amount: Float): Float{
-    return amount+2
-}
-
-
 
 
 
@@ -155,11 +200,3 @@ fun TextFieldUser(
 
 
 
-
-@Preview(showBackground = true)
-@Composable
-fun GreetingPreview() {
-    ConversorMonedaTheme {
-        MyApp(modifier = Modifier)
-    }
-}
