@@ -4,10 +4,12 @@ import android.content.Context
 import android.content.Intent
 import android.net.Uri
 import android.os.Bundle
+import android.util.Log
 import android.widget.Space
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.activity.enableEdgeToEdge
+import androidx.compose.foundation.Image
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
@@ -27,6 +29,9 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.layout.TestModifierUpdaterLayout
 import androidx.compose.ui.platform.LocalContext
+import androidx.compose.ui.res.painterResource
+import androidx.compose.ui.res.stringArrayResource
+import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.navigation.NavHost
@@ -79,7 +84,10 @@ fun MainApp(modifier: Modifier = Modifier) {
 @Composable
 fun ThirdScreen(onNavSelected: (String) -> Unit) {
     Column(
-        Modifier.background(Color.DarkGray).fillMaxSize().padding(16.dp),
+        Modifier
+            .background(Color.DarkGray)
+            .fillMaxSize()
+            .padding(16.dp),
         horizontalAlignment = Alignment.CenterHorizontally,
         verticalArrangement = Arrangement.Center,
     ) {
@@ -100,7 +108,10 @@ fun ThirdScreen(onNavSelected: (String) -> Unit) {
 @Composable
 fun SecondScreen(onGoBack:() -> Unit) {
     Column(
-        Modifier.background(Color.LightGray).fillMaxSize().padding(16.dp),
+        Modifier
+            .background(Color.LightGray)
+            .fillMaxSize()
+            .padding(16.dp),
         horizontalAlignment = Alignment.CenterHorizontally,
         verticalArrangement = Arrangement.Center,
     ) {
@@ -146,33 +157,43 @@ fun SecondScreen(onGoBack:() -> Unit) {
 //}
 @Composable
 fun MiHomeScreen(onNavSelected: (String) -> Unit){
+    val diasSemana = stringArrayResource(id=R.array.dias)
+    diasSemana.forEach { Log.d("diasSemana",it) }
+    Log.d("diasSemana",diasSemana[1])
     val context = LocalContext.current
-    Column (Modifier.background(Color.Gray).fillMaxSize().padding(16.dp),
+    Column (
+        Modifier
+            .background(Color.Gray)
+            .fillMaxSize()
+            .padding(16.dp),
         horizontalAlignment = Alignment.CenterHorizontally,
         verticalArrangement = Arrangement.Center,
         ){
         Text(text="Navegación con JetPackCompose")
         Spacer(Modifier.padding(10.dp))
-        Text(text="Bienvenido a la Pantalla de Inicio")
+        Text(text= stringResource(R.string.bienvenido2))
         Spacer(Modifier.padding(40.dp))
 
         Row {
             ElevatedButton(onClick = {onNavSelected("secondScreen")}) {
-                Text(text="Segunda Pantalla")
+                Text(text= stringResource(R.string.segunda_pantalla))
+
             }
             Spacer(Modifier.padding(5.dp))
             ElevatedButton(onClick = {onNavSelected("thirdScreen")}) {
                 Text(text="Tercera Pantalla")
             }
         }
+        Text(text= stringResource(R.string.txt_bienvenida))
         ElevatedButton(onClick = {openBrowser(context,"https://developer.android.com/")}) {
             Text("Abrir el Navegdor") }
         ElevatedButton(onClick = { openMap(context,"Badajoz") }) {
-            Text("Abrir el Mapa") }
+             Text("Abrir el Mapa")}
         ElevatedButton(onClick = { llamar(context,"666666666") }) {
             Text("Llamar al diablo") }
         ElevatedButton(onClick = { lanzarSegundaActividad(context) }) {
             Text("Lanzas otra actividad propia") }
+        Text(stringResource(R.string.txt_adios))
     }
 }
 fun lanzarSegundaActividad(context: Context){

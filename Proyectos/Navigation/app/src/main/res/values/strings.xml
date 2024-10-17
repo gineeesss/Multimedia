@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">Navigation</string>
+    <string name="txt_bienvenida">Hola Mundo</string>
+    <string name="txt_adios">Adios</string>
+    <string name="segunda_pantalla">Segunda Pantalla</string>
+    <string name="bienvenido2">Bienvenido a la Pantalla de Inicio</string>
 </resources>
