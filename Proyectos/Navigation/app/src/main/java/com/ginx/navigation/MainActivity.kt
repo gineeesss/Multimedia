@@ -78,7 +78,11 @@ fun MainApp(modifier: Modifier = Modifier) {
 
     }
 }// Fin del Main
-
+sealed class Destinations(val route: String){
+    object MainRoute : Destinations("home")
+    object SecondRoute : Destinations("secondScreen")
+    object ThirdRoute : Destinations("thirdScreen")
+}
 
 
 @Composable
@@ -196,6 +200,10 @@ fun MiHomeScreen(onNavSelected: (String) -> Unit){
         Text(stringResource(R.string.txt_adios))
     }
 }
+
+
+
+
 fun lanzarSegundaActividad(context: Context){
     val intent = Intent(context, SegundaActividad::class.java)
     context.startActivity(intent)
