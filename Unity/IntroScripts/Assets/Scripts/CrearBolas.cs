@@ -11,6 +11,7 @@ public class CrearBolas : MonoBehaviour
     private GameObject go ;
     private List<GameObject> bolas = new List<GameObject>();
     private List<Color> colors = new List<Color> { Color.blue, Color.red, Color.green };
+    private Time time;
 
     // Start is called before the first frame update
     void Start()
@@ -55,6 +56,13 @@ public class CrearBolas : MonoBehaviour
     }
     private void Update()
     {
+        time = time + Time.deltaTime;
+        if (time > 2.0f)
+        {
+            Debug.Log("Tiempo: " + time + " segundos!");
+            time = 0;
+        }
+
         foreach (GameObject go in bolas)
         {
             if (go.transform.position.y < -2f)
