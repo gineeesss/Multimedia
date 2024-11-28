@@ -1,0 +1,8 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI%20Toolkit/StyleSheet.uss?fileID=7433441132597879392&amp;guid=f2ed754e693123047a857893c8bc3db2&amp;type=3#StyleSheet" />
+    <ui:VisualElement name="VisualElement" style="flex-grow: 1; background-color: rgba(199, 42, 176, 0); height: 981px;">
+        <ui:Label tabindex="-1" text="CARS WITH CODE" parse-escape-sequences="true" display-tooltip-when-elided="true" class="h1" style="font-size: 120px;" />
+    </ui:VisualElement>
+    <ui:Button text="Button" parse-escape-sequences="true" display-tooltip-when-elided="true" class="buttonStart" style="opacity: 1; display: flex; overflow: hidden; width: 596px; -unity-text-align: middle-center; justify-content: center; align-self: auto; translate: 540px -300px; font-size: 77px;" />
+    <ui:Button text="using UnityEngine.UI;&#10;" parse-escape-sequences="true" display-tooltip-when-elided="true" name="StartButton" style="font-size: 77px; color: rgb(20, 255, 0);" />
+</ui:UXML>

@@ -1,0 +1,122 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\dam2\\Desktop\\ProgramacionMultimediaYDispositivosMoviles\\Unity\\Coches\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{1712D864-832D-A022-5AE7-D21188DA377A}|Assembly-CSharp.csproj|c:\\users\\dam2\\desktop\\programacionmultimediaydispositivosmoviles\\unity\\coches\\assets\\scripts\\uievents.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1712D864-832D-A022-5AE7-D21188DA377A}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\uievents.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1712D864-832D-A022-5AE7-D21188DA377A}|Assembly-CSharp.csproj|c:\\users\\dam2\\desktop\\programacionmultimediaydispositivosmoviles\\unity\\coches\\assets\\scripts\\tankrotation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1712D864-832D-A022-5AE7-D21188DA377A}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\tankrotation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1712D864-832D-A022-5AE7-D21188DA377A}|Assembly-CSharp.csproj|C:\\Users\\dam2\\Desktop\\ProgramacionMultimediaYDispositivosMoviles\\Unity\\Coches\\assets\\scripts\\spawncars.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1712D864-832D-A022-5AE7-D21188DA377A}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\spawncars.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1712D864-832D-A022-5AE7-D21188DA377A}|Assembly-CSharp.csproj|C:\\Users\\dam2\\Desktop\\ProgramacionMultimediaYDispositivosMoviles\\Unity\\Coches\\assets\\scripts\\camaramovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1712D864-832D-A022-5AE7-D21188DA377A}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\camaramovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1712D864-832D-A022-5AE7-D21188DA377A}|Assembly-CSharp.csproj|C:\\Users\\dam2\\Desktop\\ProgramacionMultimediaYDispositivosMoviles\\Unity\\Coches\\assets\\scripts\\maincarcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1712D864-832D-A022-5AE7-D21188DA377A}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\maincarcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1712D864-832D-A022-5AE7-D21188DA377A}|Assembly-CSharp.csproj|C:\\Users\\dam2\\Desktop\\ProgramacionMultimediaYDispositivosMoviles\\Unity\\Coches\\assets\\scripts\\npccar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1712D864-832D-A022-5AE7-D21188DA377A}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\npccar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{e8b06f52-6d01-11d2-aa7d-00c04f990343}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UiEvents.cs",
+              "DocumentMoniker": "C:\\Users\\dam2\\Desktop\\ProgramacionMultimediaYDispositivosMoviles\\Unity\\Coches\\Assets\\Scripts\\UiEvents.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\UiEvents.cs",
+              "ToolTip": "C:\\Users\\dam2\\Desktop\\ProgramacionMultimediaYDispositivosMoviles\\Unity\\Coches\\Assets\\Scripts\\UiEvents.cs",
+              "RelativeToolTip": "Assets\\Scripts\\UiEvents.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-28T08:47:56.159Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "TankRotation.cs",
+              "DocumentMoniker": "C:\\Users\\dam2\\Desktop\\ProgramacionMultimediaYDispositivosMoviles\\Unity\\Coches\\Assets\\Scripts\\TankRotation.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\TankRotation.cs",
+              "ToolTip": "C:\\Users\\dam2\\Desktop\\ProgramacionMultimediaYDispositivosMoviles\\Unity\\Coches\\Assets\\Scripts\\TankRotation.cs",
+              "RelativeToolTip": "Assets\\Scripts\\TankRotation.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-28T08:22:34.452Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "NpcCar.cs",
+              "DocumentMoniker": "C:\\Users\\dam2\\Desktop\\ProgramacionMultimediaYDispositivosMoviles\\Unity\\Coches\\Assets\\Scripts\\NpcCar.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\NpcCar.cs",
+              "ToolTip": "C:\\Users\\dam2\\Desktop\\ProgramacionMultimediaYDispositivosMoviles\\Unity\\Coches\\Assets\\Scripts\\NpcCar.cs",
+              "RelativeToolTip": "Assets\\Scripts\\NpcCar.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-28T07:51:51.867Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MainCarController.cs",
+              "DocumentMoniker": "C:\\Users\\dam2\\Desktop\\ProgramacionMultimediaYDispositivosMoviles\\Unity\\Coches\\Assets\\Scripts\\MainCarController.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\MainCarController.cs",
+              "ToolTip": "C:\\Users\\dam2\\Desktop\\ProgramacionMultimediaYDispositivosMoviles\\Unity\\Coches\\Assets\\Scripts\\MainCarController.cs",
+              "RelativeToolTip": "Assets\\Scripts\\MainCarController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-28T07:49:41.098Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CamaraMovement.cs",
+              "DocumentMoniker": "C:\\Users\\dam2\\Desktop\\ProgramacionMultimediaYDispositivosMoviles\\Unity\\Coches\\Assets\\Scripts\\CamaraMovement.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\CamaraMovement.cs",
+              "ToolTip": "C:\\Users\\dam2\\Desktop\\ProgramacionMultimediaYDispositivosMoviles\\Unity\\Coches\\Assets\\Scripts\\CamaraMovement.cs",
+              "RelativeToolTip": "Assets\\Scripts\\CamaraMovement.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-28T07:49:39.699Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "SpawnCars.cs",
+              "DocumentMoniker": "C:\\Users\\dam2\\Desktop\\ProgramacionMultimediaYDispositivosMoviles\\Unity\\Coches\\Assets\\Scripts\\SpawnCars.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\SpawnCars.cs",
+              "ToolTip": "C:\\Users\\dam2\\Desktop\\ProgramacionMultimediaYDispositivosMoviles\\Unity\\Coches\\Assets\\Scripts\\SpawnCars.cs",
+              "RelativeToolTip": "Assets\\Scripts\\SpawnCars.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAxwCAAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-28T07:28:06.27Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
