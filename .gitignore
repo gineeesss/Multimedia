@@ -1,5 +1,6 @@
 # Ignorar carpetas generadas automáticamente por Unity en todos los proyectos
 **/[Ll]ibrary/
+**/[Aa]ssets/
 **/[Tt]emp/
 **/[Oo]bj/
 **/[Bb]uild/
