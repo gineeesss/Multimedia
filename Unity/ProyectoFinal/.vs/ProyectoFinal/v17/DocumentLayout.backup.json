@@ -3,7 +3,7 @@
   "WorkspaceRootPath": "C:\\Users\\dam2\\Desktop\\ProgramacionMultimediaYDispositivosMoviles\\Unity\\ProyectoFinal\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3C531D86-F514-8865-5267-1058EFED5D33}|Assembly-CSharp.csproj|C:\\Users\\dam2\\Desktop\\ProgramacionMultimediaYDispositivosMoviles\\Unity\\ProyectoFinal\\assets\\starterassets\\thirdpersoncontroller\\scripts\\thirdpersoncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{3C531D86-F514-8865-5267-1058EFED5D33}|Assembly-CSharp.csproj|c:\\users\\dam2\\desktop\\programacionmultimediaydispositivosmoviles\\unity\\proyectofinal\\assets\\starterassets\\thirdpersoncontroller\\scripts\\thirdpersoncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3C531D86-F514-8865-5267-1058EFED5D33}|Assembly-CSharp.csproj|solutionrelative:assets\\starterassets\\thirdpersoncontroller\\scripts\\thirdpersoncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -11,11 +11,11 @@
       "RelativeMoniker": "D:0:0:{3C531D86-F514-8865-5267-1058EFED5D33}|Assembly-CSharp.csproj|solutionrelative:assets\\abandoned_asylum\\read_me.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3C531D86-F514-8865-5267-1058EFED5D33}|Assembly-CSharp.csproj|c:\\users\\dam2\\desktop\\programacionmultimediaydispositivosmoviles\\unity\\proyectofinal\\assets\\free wood door pack\\script\\door.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{3C531D86-F514-8865-5267-1058EFED5D33}|Assembly-CSharp.csproj|C:\\Users\\dam2\\Desktop\\ProgramacionMultimediaYDispositivosMoviles\\Unity\\ProyectoFinal\\assets\\free wood door pack\\script\\door.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3C531D86-F514-8865-5267-1058EFED5D33}|Assembly-CSharp.csproj|solutionrelative:assets\\free wood door pack\\script\\door.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C50A9856-1C42-9F26-CA17-3ECC705AF3DC}|Assembly-CSharp-Editor.csproj|c:\\users\\dam2\\desktop\\programacionmultimediaydispositivosmoviles\\unity\\proyectofinal\\assets\\tutorialinfo\\scripts\\editor\\readmeeditor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{C50A9856-1C42-9F26-CA17-3ECC705AF3DC}|Assembly-CSharp-Editor.csproj|C:\\Users\\dam2\\Desktop\\ProgramacionMultimediaYDispositivosMoviles\\Unity\\ProyectoFinal\\assets\\tutorialinfo\\scripts\\editor\\readmeeditor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C50A9856-1C42-9F26-CA17-3ECC705AF3DC}|Assembly-CSharp-Editor.csproj|solutionrelative:assets\\tutorialinfo\\scripts\\editor\\readmeeditor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -45,6 +45,10 @@
           "SelectedChildIndex": 4,
           "Children": [
             {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{e8b06f52-6d01-11d2-aa7d-00c04f990343}"
+            },
+            {
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "Door.cs",
@@ -54,12 +58,7 @@
               "RelativeToolTip": "Assets\\Free Wood Door Pack\\Script\\Door.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-02T11:55:23.705Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:1:0:{e8b06f52-6d01-11d2-aa7d-00c04f990343}"
+              "WhenOpened": "2024-12-02T11:55:23.705Z"
             },
             {
               "$type": "Document",
@@ -71,8 +70,7 @@
               "RelativeToolTip": "Assets\\TutorialInfo\\Scripts\\Editor\\ReadmeEditor.cs",
               "ViewState": "AgIAAEkAAAAAAAAAAAAkwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-02T11:51:47.864Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-02T11:51:47.864Z"
             },
             {
               "$type": "Document",
@@ -84,8 +82,7 @@
               "RelativeToolTip": "Assets\\TutorialInfo\\Scripts\\Readme.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-02T11:51:40.886Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-02T11:51:40.886Z"
             },
             {
               "$type": "Document",
@@ -110,8 +107,7 @@
               "RelativeToolTip": "Assets\\Free Wood Door Pack\\Script\\CameraOpenDoor.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAACAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-02T11:41:29.671Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-02T11:41:29.671Z"
             },
             {
               "$type": "Document",
@@ -123,7 +119,8 @@
               "RelativeToolTip": "Library\\PackageCache\\com.unity.cinemachine\\Runtime\\Behaviours\\CinemachineBrain.cs",
               "ViewState": "AgIAAKICAAAAAAAAAAAAADACAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-02T11:41:06.266Z"
+              "WhenOpened": "2024-12-02T11:41:06.266Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -135,8 +132,7 @@
               "RelativeToolTip": "Assets\\Free Wood Door Pack\\Script\\FPSController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-02T10:44:15.815Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-02T10:44:15.815Z"
             },
             {
               "$type": "Document",
@@ -148,8 +144,7 @@
               "RelativeToolTip": "Assets\\Abandoned_Asylum\\Read_me.txt",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
-              "WhenOpened": "2024-12-02T10:31:28.995Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-02T10:31:28.995Z"
             }
           ]
         }
