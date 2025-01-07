@@ -1,0 +1,3 @@
+juego preguntas, hay que saltar en la casilla correcta, escribir las respuestas en algo que quede flotando encima de cada casilla, y la pregnta en el uhd, preguntas con ambas respuestas guardar en un dicctionary o que se yo
+
+la casilla correcta se crea con rigibody, la incorrecta pos sin, así es que si saltas sobre ella te caes al vacío
